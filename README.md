@@ -6,12 +6,10 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-<p align="center"><img  src='img/trafficlight.gif' alt='')></p>
-
 ## About The Project
 This project was made during an internal hackathon I competed in as an intern at Zix. It is a visualizer for Jenkins builds that is designed to be utilized by development and DevOPs teams. The LED indicators will change color, reflecting the current status of the build. If the status changes an optional email notification can be sent to a individual or a mailing list, enabling it to be a useful tool for entire teams.
 
-<p align="center"><img  src='img/wideshot.jpg' alt='' height=70% width=70%)></p>
+<p align="center"><img  src='img/trafficlight.gif' alt='')></p>
 
 
 ### Built With
