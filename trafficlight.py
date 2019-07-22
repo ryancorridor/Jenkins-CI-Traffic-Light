@@ -12,19 +12,19 @@ from urllib.error import HTTPError
 from pyfirmata import Arduino
 
 # Initializing board
-board = Arduino('/dev/cu.usbmodemFD131')
+board = Arduino('<insert_board_serial_port_here>')
 
 LEDS = {
-    "red": board.get_pin('d:12:o'),
-    "yellow": board.get_pin('d:11:o'),
-    "green": board.get_pin('d:9:o')
+    "red": board.get_pin('d:<insert_pin_number_here>:o'),
+    "yellow": board.get_pin('d:<insert_pin_number_here>:o'),
+    "green": board.get_pin('d:<insert_pin_number_here>:o')
 }
 JENKINS_SERVERS = {
-    'insert_server_name_here': 'insert_server_url_here',
+    'insert_server_name_here': '<insert_server_url_here>',
 }
 
-EMAIL_RELAY = 'insert_email_relay_here'
-EMAIL_SENDER = 'insert_email_sender_here'
+EMAIL_RELAY = '<insert_email_relay_here>'
+EMAIL_SENDER = '<insert_email_sender_here>'
 
 
 # ----- LED FUNCTIONS ----- #
