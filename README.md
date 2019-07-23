@@ -52,7 +52,7 @@ There are some further changes that need to be made directly in the script befor
 
 This code block can be found near the top of the script. Change the ```<insert_blank>``` strings with your specific values. If you are confused about what values to put for *board_serial_port* or *pin_number* refer to the [PyFirmata documentation](https://pyfirmata.readthedocs.io/en/latest/). 
 
-(e.g. ```'<insert_board_serial_port_here>'``` -> ```<'d:11:o'>```)
+(e.g. ```'<insert_board_serial_port_here>'``` -> ```/dev/cu.usbmodemFD131```)
 
 ```python
 board = Arduino('<insert_board_serial_port_here>')
